@@ -1,4 +1,5 @@
 function createDiv() {
+	console.log("first func")
 	let div = document.createElement('div');
 	div.className = "post-wrap";
 	let div2 = document.createElement('div');
