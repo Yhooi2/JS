@@ -25,3 +25,19 @@ function isPrime(num) {
 	return true;
 }
 console.log(isPrime(1));
+
+// Task 3
+function getAge(date) {
+	today = new Date();
+	console.log(today.getFullYear() - date.getFullYear());
+}
+age = new Date(1988, 2, 10);
+getAge(age);
+
+// Task 4
+function isWeekDay(date) {
+	if (date.getDay() > 5) {
+		return true;
+	} else return false;
+}
+console.log(isWeekDay(age))
